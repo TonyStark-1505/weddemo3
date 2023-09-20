@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liên hệ với Đại học Greenwich Việt Nam</title>
+</head>
+<style>
+    /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.contact-form, .contact-info {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2, .contact-info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-form label, .contact-info address {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Liên hệ với Đại học Greenwich Việt Nam</h1>
+    </header>
+
+    <section class="contact-form">
+        <h2>Gửi tin nhắn cho chúng tôi</h2>
+        <form action="#" method="post">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Thông tin liên hệ</h2>
+        <address>
+            <p><strong>Địa chỉ:</strong> Số 123, Đường ABC, Quận XYZ, Thành phố HCM</p>
+            <p><strong>Email:</strong> info@greenwich.edu.vn</p>
+            <p><strong>Điện thoại:</strong> +84 123 456 789</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Đại học Greenwich Việt Nam</p>
+    </footer>
+</body>
+</html>
